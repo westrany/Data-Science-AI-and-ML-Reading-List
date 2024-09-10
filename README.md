@@ -6,7 +6,7 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type       | Title         | Year |
 |------------|---------------|------|
-|Paper |[Deep Sparse Rectifier Neural Networks](### Deep Sparse Rectifier Neural Networks) |2011| 
+|Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |2011| 
 
 ## Papers  
 
