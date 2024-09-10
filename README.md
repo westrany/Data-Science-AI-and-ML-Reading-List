@@ -7,7 +7,7 @@ _I've also included a brief summary of each paper for conveniency._
 | Type       | Title         | Author | Year |
 |------------|---------------|--------|------|
 |Article |[A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](#a-neural-network-in-13-lines-of-python-part-2---gradient-descent) |Andrew Trask |2015 |  
-|Book Chapter | [How the backpropagation algorithm works](how-the-backpropagation-algorithm-works) |Michael Nielsen | 2015|
+|Book Chapter | [How the backpropagation algorithm works](#how-the-backpropagation-algorithm-works) |Michael Nielsen | 2015|
 |Forum | [Common Cost Functions Used in Neural Networks](#common-cost-functions-used-in-neural-networks) |StackExchange Users |2015|
 |Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |Xavier Glorot, Antoine Bordes, and Yoshua Bengio |2011|
 |Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|  
