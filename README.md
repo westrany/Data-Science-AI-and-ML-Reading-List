@@ -20,7 +20,9 @@ The paper focuses on the use of the Rectified Linear Unit (ReLU) as an activatio
 4. Advantage in Training Deep Networks: By mitigating the vanishing gradient problem, ReLU allows for easier and more effective training of very deep networks. The authors also explore the behavior of ReLU compared to other nonlinearities in unsupervised pre-training scenarios.
 
 **Impact:**  
-This work was pivotal in making deep learning more feasible and widely adopted, especially in tasks involving deep convolutional networks. ReLU has since become the default activation function in many deep learning architectures.
+This work was pivotal in making deep learning more feasible and widely adopted, especially in tasks involving deep convolutional networks. ReLU has since become the default activation function in many deep learning architectures.  
+
+---
 
 ### [Efficient BackProp (1998)](https://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 _Authors: Yann LeCun, Léon Bottou, Genevieve Orr, and Klaus-Robert Müller_
