@@ -1,5 +1,5 @@
 # Data-Science-AI-and-ML-Reading-List
-_My personal reading list with papers, books and articles for Data Science, Machine Learning and Artificial Intelligence._  
+_My personal reading list with papers, books, articles and forum entries for Data Science, Machine Learning and Artificial Intelligence._  
 _I've also included a brief summary of each paper for conveniency._  
 
 ## Index  
