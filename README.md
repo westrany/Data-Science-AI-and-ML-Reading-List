@@ -1,6 +1,11 @@
 # Data-Science-AI-and-ML-Reading-List
 _My personal reading list with papers, books, articles and forum entries for Data Science, Machine Learning and Artificial Intelligence._  
-_I've also included a brief summary of each paper for conveniency._  
+
+## How to use  
+
+Check the index below for an item of interest and click on the title chosen. This will take you to the section on this page that summarises and briefly explains it. You can also click on the item's title (not on the Index but on their designated section on this page) to quickly open its web source which usually includes free to read papers, articles, books and so on.  
+
+Another way to use this page is to use CTRL+F to search for topics you wish to read about.
 
 ## Index  
 
