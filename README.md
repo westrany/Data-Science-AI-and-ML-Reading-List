@@ -6,7 +6,7 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type   | Title                                   | Authors                               | Year |
 |--------|-----------------------------------------|---------------------------------------|------|
-| Paper  | [Efficient BackProp](https://github.com/westrany/Data-Science-AI-and-ML-Reading-List/edit/main/README.md#efficient-backprop-1998)                      | Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller | 1998 |
+| Paper  | [Efficient BackProp]([https://github.com/westrany/Data-Science-AI-and-ML-Reading-List/edit/main/README.md#efficient-backprop-1998](https://github.com/westrany/Data-Science-AI-and-ML-Reading-List/blob/main/README.md#efficient-backprop-1998))                      | Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller | 1998 |
 | Paper  | Gradient-Based Learning Applied to Document Recognition | Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner | 1998 |
 | Paper  | Deep Learning                           | Yann LeCun, Yoshua Bengio, Geoffrey Hinton | 2015 |
 | Paper  | A Learning Algorithm for Continually Running Fully Recurrent Neural Networks | Ronald J. Williams, David Zipser       | 1989 |
