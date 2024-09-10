@@ -17,11 +17,10 @@ Basic backpropagation can face issues like slow convergence, sensitivity to hype
 
 3. Techniques for Efficient BackProp
 The paper proposes several improvements to address these challenges:
-
-  - Normalization: Input data should be normalized to ensure features are on similar scales, improving learning speed.
-  - Weight Initialization: Initializing weights with small random values can prevent gradients from becoming too large or too small.
-  - Learning Rate Scheduling: Dynamically adjusting the learning rate during training can help achieve faster convergence.
-  - Momentum: Adding momentum to gradient descent helps escape local minima and speeds up convergence by reducing oscillations.
+    - Normalization: Input data should be normalized to ensure features are on similar scales, improving learning speed.
+    - Weight Initialization: Initializing weights with small random values can prevent gradients from becoming too large or too small.
+    - Learning Rate Scheduling: Dynamically adjusting the learning rate during training can help achieve faster convergence.
+    - Momentum: Adding momentum to gradient descent helps escape local minima and speeds up convergence by reducing oscillations.
 
 4. Second-Order Methods
 Second-order optimization techniques (e.g., Newton’s method) approximate the curvature of the loss surface and improve convergence, although they are computationally expensive.
