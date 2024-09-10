@@ -6,13 +6,34 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type       | Title         | Author | Year |
 |------------|---------------|--------|------|
+|Article |[A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](#a-neural-network-in-13-lines-of-python-part-2---gradient-descent) |Andrew Trask |2015 |
 |Forum | [Common Cost Functions Used in Neural Networks](#common-cost-functions-used-in-neural-networks) |StackExchange Users |2015|
 |Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |Xavier Glorot, Antoine Bordes, and Yoshua Bengio |2011|
 |Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|  
 
+## Articles
+
+### [A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](https://iamtrask.github.io/2015/07/27/python-network-part2/)  
+_Author: Andrew Trask_  
+_Year: 2015_  
+
+The article provides a hands-on guide to implementing backpropagation in Python for a simple neural network. It explains key steps in building the network, calculating gradients, and updating weights using Python code.  
+
+**Key Contributions:**  
+
+1. Feedforward Calculation: Demonstrates how to compute predictions from inputs using weights and activations.
+2. Cost Function: Introduces quadratic cost (MSE) to evaluate network performance.
+3. Backpropagation: Provides code to calculate errors, propagate them backward, and update weights accordingly.
+
+**Impact:**  
+
+This tutorial simplifies understanding of backpropagation, offering a practical starting point for beginners in neural network development.
+
+---
+
 ## Forum  
 
-### Common Cost Functions Used in Neural Networks  
+### [Common Cost Functions Used in Neural Networks](https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications)  
 _Authors: StackExchange Users_  
 _Year: 2015_  
 
