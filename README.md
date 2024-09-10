@@ -6,8 +6,48 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type       | Title         | Author | Year |
 |------------|---------------|--------|------|
+|Forum | [Common Cost Functions Used in Neural Networks](#common-cost-functions-used-in-neural-networks) |StackExchange Users |2015|
 |Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |Xavier Glorot, Antoine Bordes, and Yoshua Bengio |2011|
-|Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|
+|Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|  
+
+## Forum  
+
+### Common Cost Functions Used in Neural Networks  
+_Authors: StackExchange Users_  
+_Year: 2015_  
+
+Cost functions are crucial in neural networks as they evaluate how well a network performs. These functions measure the difference between the predicted output and the actual output, guiding the network's learning process through backpropagation.  
+
+**Key Cost Functions:**  
+
+1. Quadractic Cost (Mean Squared Error)
+    - This measures the squared difference between predicted and actual values. It is commonly used in regression tasks but can suffer from slow learning when errors are small.
+
+2. Cross-Entropy Cost (Binary Cross-Entropy)
+    - Widely used in classification tasks, this function performs better for models with probabilities as outputs.
+
+3. Exponential Cost
+    - This cost function amplifies larger errors, depending on the parameter 𝜏.
+  
+4. Hellinger Distance
+    - This cost function ensures positive values and is ideal for distributions between 0 and 1.  
+
+5. Kullback–Leibler Divergence (KL Divergence)  
+    - Measures the information loss when using the network's output to approximate the target distribution.  
+
+6. Generalized Kullback–Leibler Divergence
+    - A variation of KL Divergence that adds an adjustment for the network's output.  
+
+7. Itakura–Saito Distance
+    - This function measures divergence, particularly useful in audio signal processing.
+  
+**Impact:**  
+
+These cost functions play essential roles in training neural networks for various tasks, including regression, classification, and even specialized applications like audio processing. By selecting the right cost function, one can improve the network’s learning process and performance.
+
+---
+
+### Common Cost Functions Used in Neural Networks
 
 ## Papers  
 
