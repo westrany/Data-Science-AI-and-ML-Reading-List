@@ -1,11 +1,18 @@
 # Data-Science-AI-and-ML-Reading-List
 _My personal reading list with papers, books and articles for Data Science, Machine Learning and Artificial Intelligence._  
-_I've also included a brief summary of each paper for conveniency._
+_I've also included a brief summary of each paper for conveniency._  
+
+## Index  
+
+| Type       | Title         | Year |
+|------------|---------------|------|
+|Paper |[Deep Sparse Rectifier Neural Networks](### Deep Sparse Rectifier Neural Networks) |2011| 
 
 ## Papers  
 
-### [Deep Sparse Rectifier Neural Networks (2001)](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
+### [Deep Sparse Rectifier Neural Networks](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
 _Authors: Xavier Glorot, Antoine Bordes, and Yoshua Bengio_  
+_Year: 2011_
 
 The paper focuses on the use of the Rectified Linear Unit (ReLU) as an activation function in deep neural networks, which became highly influential in modern deep learning architectures.  
 
