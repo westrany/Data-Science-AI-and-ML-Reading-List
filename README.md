@@ -2,14 +2,33 @@
 _My personal reading list with papers, books and articles for Data Science, Machine Learning and Artificial Intelligence._  
 _I've also included a brief summary of each paper for conveniency._
 
-## Papers
+## Papers  
+
+### [Deep Sparse Rectifier Neural Networks (2001)](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
+_Authors: Xavier Glorot, Antoine Bordes, and Yoshua Bengio_  
+
+The paper focuses on the use of the Rectified Linear Unit (ReLU) as an activation function in deep neural networks, which became highly influential in modern deep learning architectures.  
+
+**Key Contributions:**  
+
+1. Introduction of ReLU: The paper introduces and promotes the use of the Rectified Linear Unit (ReLU) activation function, which is defined as f(x)=max(0,x). This function addresses issues like vanishing gradients that occur with traditional sigmoid or hyperbolic tangent activation functions.
+
+2. Sparse Activations: ReLU introduces sparsity in the neural network, meaning many neurons are inactive for a given input. This leads to better generalization and faster training times compared to traditional activation functions that produce dense activations.
+
+3. Empirical Results: The paper provides experimental evidence showing that deep neural networks using ReLU activation outperform networks with sigmoid and tanh activations on various benchmarks. ReLU improves both the convergence speed and the final performance of deep networks.
+
+4. Advantage in Training Deep Networks: By mitigating the vanishing gradient problem, ReLU allows for easier and more effective training of very deep networks. The authors also explore the behavior of ReLU compared to other nonlinearities in unsupervised pre-training scenarios.
+
+**Impact:**  
+This work was pivotal in making deep learning more feasible and widely adopted, especially in tasks involving deep convolutional networks. ReLU has since become the default activation function in many deep learning architectures.
 
 ### [Efficient BackProp (1998)](https://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 _Authors: Yann LeCun, Léon Bottou, Genevieve Orr, and Klaus-Robert Müller_
 
 The paper Efficient BackProp discusses various techniques to enhance the efficiency of backpropagation, a key algorithm for training neural networks.
 
-Key Concepts
+**Key Concepts:**  
+
 1. Backpropagation (BackProp)
 Backpropagation is the most widely used method for training neural networks. It calculates the gradient of the loss function with respect to network weights by propagating the error backward from the output layer to the input layer.
 
@@ -31,4 +50,5 @@ Activation functions affect backpropagation efficiency. Sigmoid and hyperbolic t
 
 6. Applications
 The improvements discussed are applicable to various neural network architectures, such as Convolutional Neural Networks (CNNs), making backpropagation more powerful and efficient for complex models.
+
 
