@@ -6,12 +6,13 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type       | Title         | Author | Year |
 |------------|---------------|--------|------|
-|Article |[A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](#a-neural-network-in-13-lines-of-python-part-2---gradient-descent) |Andrew Trask |2015 |
+|Article |[A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](#a-neural-network-in-13-lines-of-python-part-2---gradient-descent) |Andrew Trask |2015 |  
+|Book Chapter | [How the backpropagation algorithm works](how-the-backpropagation-algorithm-works) |Michael Nielsen | 2015|
 |Forum | [Common Cost Functions Used in Neural Networks](#common-cost-functions-used-in-neural-networks) |StackExchange Users |2015|
 |Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |Xavier Glorot, Antoine Bordes, and Yoshua Bengio |2011|
 |Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|  
 
-## Articles
+---
 
 ### [A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](https://iamtrask.github.io/2015/07/27/python-network-part2/)  
 _Author: Andrew Trask_  
@@ -30,8 +31,6 @@ The article provides a hands-on guide to implementing backpropagation in Python 
 This tutorial simplifies understanding of backpropagation, offering a practical starting point for beginners in neural network development.
 
 ---
-
-## Forum  
 
 ### [Common Cost Functions Used in Neural Networks](https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications)  
 _Authors: StackExchange Users_  
@@ -66,9 +65,7 @@ Cost functions are crucial in neural networks as they evaluate how well a networ
 
 These cost functions play essential roles in training neural networks for various tasks, including regression, classification, and even specialized applications like audio processing. By selecting the right cost function, one can improve the network’s learning process and performance.
 
----
-
-## Papers  
+--- 
 
 ### [Deep Sparse Rectifier Neural Networks](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
 _Authors: Xavier Glorot, Antoine Bordes, and Yoshua Bengio_  
@@ -113,6 +110,24 @@ The paper focuses on improving the efficiency of backpropagation, a fundamental 
 
 **Impact:**  
 
-This work was pivotal in optimizing the training process of neural networks and laid the foundation for modern training techniques, especially in deep learning applications. The recommendations made in this paper are still relevant and widely used in today’s machine learning models.
+This work was pivotal in optimizing the training process of neural networks and laid the foundation for modern training techniques, especially in deep learning applications. The recommendations made in this paper are still relevant and widely used in today’s machine learning models.  
 
+---
+
+### [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)  
+_From the book: Neural Networks and Deep Learning, Chapter 2_  
+_Author: Michael Nielsen_  
+_Year: 2015_   
+
+This chapter explains how neural networks are trained using gradient descent and the cost function, which measures performance. The focus is on using backpropagation to adjust weights and minimize errors.  
+
+**Key Contributions:**  
+
+1. Gradient Descent: Introduces how to iteratively adjust weights to minimize the cost function.
+2. Backpropagation: Explains how errors propagate backward through the network, helping improve learning efficiency.
+3. Chain Rule: Uses calculus to efficiently compute gradients across multiple layers.
+
+**Impact:** This chapter demystifies key concepts like gradient descent and backpropagation, fundamental to training deep learning models.  
+
+---
 
