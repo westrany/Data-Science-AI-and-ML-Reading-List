@@ -4,10 +4,10 @@ _I've also included a brief summary of each paper for conveniency._
 
 ## Index  
 
-| Type       | Title         | Year |
-|------------|---------------|------|
-|Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |2011|
-|Paper |[Efficient BackProp](#efficient-backprop) | 1998|
+| Type       | Title         | Author | Year |
+|------------|---------------|--------|------|
+|Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |Xavier Glorot, Antoine Bordes, and Yoshua Bengio |2011|
+|Paper |[Efficient BackProp](#efficient-backprop) |Yann LeCun, Léon Bottou, Genevieve Orr, Klaus-Robert Müller |1998|
 
 ## Papers  
 
@@ -36,30 +36,24 @@ This work was pivotal in making deep learning more feasible and widely adopted, 
 _Authors: Yann LeCun, Léon Bottou, Genevieve Orr, and Klaus-Robert Müller_  
 _Year: 1998_
 
-The paper Efficient BackProp discusses various techniques to enhance the efficiency of backpropagation, a key algorithm for training neural networks.
+The paper focuses on improving the efficiency of backpropagation, a fundamental algorithm for training neural networks, which is widely used in deep learning.
 
-**Key Concepts:**  
+**Key Contributions:**  
 
-1. Backpropagation (BackProp)
-Backpropagation is the most widely used method for training neural networks. It calculates the gradient of the loss function with respect to network weights by propagating the error backward from the output layer to the input layer.
+1. Challenges with Basic BackProp: The paper identifies challenges like slow convergence, sensitivity to hyperparameters, and the vanishing/exploding gradient problem, which often affect deep networks using standard backpropagation.
 
-2. Challenges with BackProp
-Basic backpropagation can face issues like slow convergence, sensitivity to hyperparameters (e.g., learning rate), and difficulties with deep networks due to vanishing or exploding gradients.
+2. Normalization: The authors highlight the importance of normalizing input data to improve training speed and performance by ensuring that all features are on comparable scales.
 
-3. Techniques for Efficient BackProp
-The paper proposes several improvements to address these challenges:
-    - Normalization: Input data should be normalized to ensure features are on similar scales, improving learning speed.
-    - Weight Initialization: Initializing weights with small random values can prevent gradients from becoming too large or too small.
-    - Learning Rate Scheduling: Dynamically adjusting the learning rate during training can help achieve faster convergence.
-    - Momentum: Adding momentum to gradient descent helps escape local minima and speeds up convergence by reducing oscillations.
+3. Weight Initialization: Careful weight initialization is recommended to avoid excessively small or large gradients, which can lead to poor training dynamics in deep networks.
 
-4. Second-Order Methods
-Second-order optimization techniques (e.g., Newton’s method) approximate the curvature of the loss surface and improve convergence, although they are computationally expensive.
+4. Learning Rate Scheduling: The paper proposes dynamic adjustment of the learning rate during training to facilitate faster convergence and avoid overshooting the optimal solution.
 
-5. Activation Functions
-Activation functions affect backpropagation efficiency. Sigmoid and hyperbolic tangent functions are prone to vanishing gradients. The paper suggests experimenting with alternative activation functions for better gradient flow.
+5. Momentum: By incorporating momentum into gradient descent, the algorithm can escape local minima and reduce oscillations, leading to smoother and faster convergence.
 
-6. Applications
-The improvements discussed are applicable to various neural network architectures, such as Convolutional Neural Networks (CNNs), making backpropagation more powerful and efficient for complex models.
+6. Second-Order Methods: The paper explores second-order optimization techniques like Newton’s method, which consider the curvature of the loss surface, although these methods are computationally expensive.
+
+**Impact:**  
+
+This work was pivotal in optimizing the training process of neural networks and laid the foundation for modern training techniques, especially in deep learning applications. The recommendations made in this paper are still relevant and widely used in today’s machine learning models.
 
 
