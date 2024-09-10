@@ -6,7 +6,8 @@ _I've also included a brief summary of each paper for conveniency._
 
 | Type       | Title         | Year |
 |------------|---------------|------|
-|Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |2011| 
+|Paper |[Deep Sparse Rectifier Neural Networks](#deep-sparse-rectifier-neural-networks) |2011|
+|Paper |[Efficient BackProp](#efficient-backprop) | 1998|
 
 ## Papers  
 
@@ -31,8 +32,9 @@ This work was pivotal in making deep learning more feasible and widely adopted, 
 
 ---
 
-### [Efficient BackProp (1998)](https://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
-_Authors: Yann LeCun, Léon Bottou, Genevieve Orr, and Klaus-Robert Müller_
+### [Efficient BackProp](https://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
+_Authors: Yann LeCun, Léon Bottou, Genevieve Orr, and Klaus-Robert Müller_  
+_Year: 1998_
 
 The paper Efficient BackProp discusses various techniques to enhance the efficiency of backpropagation, a key algorithm for training neural networks.
 
