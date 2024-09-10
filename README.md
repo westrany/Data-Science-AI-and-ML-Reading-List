@@ -68,8 +68,6 @@ These cost functions play essential roles in training neural networks for variou
 
 ---
 
-### Common Cost Functions Used in Neural Networks
-
 ## Papers  
 
 ### [Deep Sparse Rectifier Neural Networks](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
